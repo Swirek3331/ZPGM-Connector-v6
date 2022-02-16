@@ -1,0 +1,11 @@
+localizedName: Konwerter
+description: Konwertuje przedmioty z innych modów
+size: 1
+health: 50
+category: crafting
+requirements: [
+  copper/10
+]
+research: {
+  parent: core-shard
+}

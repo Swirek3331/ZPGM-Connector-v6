@@ -1,0 +1,13 @@
+name: "ZPGM connector"
+author: "swirek3331"
+description: "Łączy wszystkie cztery"
+version: "OH NO 1.0"
+minGameVersion: 130
+hidden: false
+dependencies: [
+  z.p.g.m._mod
+  modern_wall-pack
+  mein-content
+  altanic
+  multi-lib
+]
