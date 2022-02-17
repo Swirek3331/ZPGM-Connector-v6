@@ -1,6 +1,6 @@
 name: "ZPGM connector"
 author: "swirek3331"
-description: "Łączy wszystkie cztery"
+description: "Only zpgm mebers will understand"
 version: "OH NO 1.0"
 minGameVersion: 130
 hidden: false
