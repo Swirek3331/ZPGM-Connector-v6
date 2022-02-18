@@ -1,6 +1,6 @@
 name: Butelka z parą
 description: Łatwy do przenoszenia pojemnik z parą wodną, można rozładować.
-color: f2ba00
+color: ffffff
 research: {
   parent: butelkaw
   requirements: [
