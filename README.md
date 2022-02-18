@@ -1,5 +1,5 @@
 # ZPGM-Connector
-Only zpgm members will understand. Half of the mods being required by zpgm connect are on zpgm server.
+Only zpgm members will understand. Half of the mods being required by zpgm connector are on zpgm server.
 https://discord.gg/E3T9JxDuTP
 "Mein content mod":
 https://discord.com/channels/811352640059342899/811559565837336606/914934231652786247
