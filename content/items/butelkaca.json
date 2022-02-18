@@ -1,0 +1,9 @@
+name: Butelka z parą
+description: Łatwy do przenoszenia pojemnik z ciekłym azotem, można rozładować.
+color: ffffff
+research: {
+  parent: butelkal
+  requirements: [
+    z.p.g.m_mod-butelka/15
+  ]
+}
