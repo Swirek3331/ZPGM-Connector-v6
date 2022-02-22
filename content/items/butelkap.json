@@ -4,6 +4,6 @@ color: ffffff
 research: {
   parent: butelkaw
   requirements: [
-    z.p.g.m_mod-butelka/15
+    z.p.g.m._mod-butelka/15
   ]
 }
