@@ -1,1 +1,2 @@
 require("converters");
+require("multicrafter");
