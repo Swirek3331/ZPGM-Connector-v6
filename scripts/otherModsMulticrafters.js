@@ -1,7 +1,7 @@
 const multiLib = require("multi-lib/library");
 const butelkownia = require("z.p.g.m._mod/multicrafter");
 
-const butelkownia = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "butelkownia", [
+butelkownia = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "butelkownia", [
     /*default form for each recipes. You can change values.
     {
         input:{
