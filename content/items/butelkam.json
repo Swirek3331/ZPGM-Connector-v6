@@ -1,0 +1,5 @@
+name: Butelka z mazutem
+description: Łatwy do przenoszenia pojemnik z mazutem, można rozładować
+research: {
+  parent: z.p.g.m._mod-butelkar
+}
