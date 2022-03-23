@@ -239,7 +239,7 @@ const botler = multiLib.MultiCrafter(GenericCrafter,GenericCrafter.GenericCrafte
      {
         	input: {
             		items: ["z.p.g.m._mod-butelka/12"],
-            		liquids: ["zpgm-connector/180"],
+            		liquids: ["zpgm-connector-nitrociecz/180"],
             		power: 1.5,
         	},
         	output: {
