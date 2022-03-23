@@ -1,0 +1,5 @@
+name: butelka z gazem
+description: Łatwy do przenoszenia pojemnik z gazem, można rozładować
+research: {
+  parent: oil
+}
