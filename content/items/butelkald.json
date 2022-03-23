@@ -1,0 +1,5 @@
+name: Butelka z lodolej
+description: Łatwy do przenoszenia pojemnik z lodolejem, można rozładować
+research: {
+  parent: butelkas
+}
