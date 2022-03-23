@@ -167,32 +167,32 @@ converter.dumpToggle = true;
 const botler = multiLib.MultiCrafter(GenericCrafter,GenericCrafter.GenericCrafterBuild,"botler",[
     /*
     Loading template
-    {
-        input: {
-            items: ["/12"],
-            liquids: ["/180"],
-            power: 1.5,
-        },
-        output: {
-            items: ["/12"],
-        },
-        craftTime: 60
-    },
+    	{
+        	input: {
+            		items: ["/12"],
+            		liquids: ["/180"],
+            		power: 1.5,
+        	},
+        	output: {
+            		items: ["/12"],
+        	},
+        	craftTime: 60
+    	},
     Unloading template
-    {
-        input: {
-            items: ["/12"],
-            power: 1.5,
-        },
-        output: {
-            items: ["/12"],
-            liquids: ["/12"],
-        },
-        craftTime: 60
-    },
-    */
+    	{
+        	input: {
+            	items: ["/12"],
+            		power: 1.5,
+        	},
+       	 	output: {
+            		items: ["/12"],
+            		liquids: ["/12"],
+        	},
+        	craftTime: 60
+    	},
+    		*/
     //Loading
-	{
+    {
 		input: {
 			items: ["z.p.g.m._mod-butelka/12"],
 			liquids: ["water/180"],
@@ -202,8 +202,8 @@ const botler = multiLib.MultiCrafter(GenericCrafter,GenericCrafter.GenericCrafte
 			items: ["z.p.g.m._mod-butelkaw/12"],
 		},
 		craftTime: 60
-	},
-	{
+    },
+    {
 		input: {
 			items: ["z.p.g.m._mod-butelka/12"],
 			liquids: ["cryofluid/180"],
@@ -213,8 +213,8 @@ const botler = multiLib.MultiCrafter(GenericCrafter,GenericCrafter.GenericCrafte
 			items: ["z.p.g.m._mod-butelkal/12"],
 		},
 		craftTime: 60
-	},
-	{
+    },
+    {
 		input: {
 			items: ["z.p.g.m._mod-butelka/12"],
 			liquids: ["oil/180"],
@@ -224,8 +224,8 @@ const botler = multiLib.MultiCrafter(GenericCrafter,GenericCrafter.GenericCrafte
 			items: ["z.p.g.m._mod-butelkar/12"],
 		},
 		craftTime: 60
-	},
-	{
+     },
+     {
 		input: {
 			items: ["z.p.g.m._mod-butelka/12"],
 			liquids: ["slag/180"],
@@ -235,20 +235,31 @@ const botler = multiLib.MultiCrafter(GenericCrafter,GenericCrafter.GenericCrafte
 			items: ["z.p.g.m._mod-butelkaz/12"],
 		},
 		craftTime: 60
-	},
-    //Unloading
-	{
+     },
+     {
+        	input: {
+            		items: ["z.p.g.m._mod-butelka/12"],
+            		liquids: ["zpgm-connector/180"],
+            		power: 1.5,
+        	},
+        	output: {
+            		items: ["z.p.g.m._mod-butelkan/12"],
+        	},
+        	craftTime: 60
+    },
+     //Unloading
+    {
 		input: {
-		items: ["z.p.g.m._mod-butelkaw/12"],
-		power: 1.5,
+			items: ["z.p.g.m._mod-butelkaw/12"],
+			power: 1.5,
 		},
 		output: {
 			items: ["z.p.g.m._mod-butelka/12"],
 			liquids: ["water/180"],
 		},
 		craftTime: 60
-	},
-	{
+     },
+     {
 		input: {
 			items: ["z.p.g.m._mod-butelkal/12"],
 			power: 1.5,
@@ -258,8 +269,8 @@ const botler = multiLib.MultiCrafter(GenericCrafter,GenericCrafter.GenericCrafte
 			liquids: ["cryofluid/180"],
 		},
 		craftTime: 60
-	},
-	{
+     },
+     {
 		input: {
 			items: ["z.p.g.m._mod-butelkar/12"],
 			power: 1.5,
@@ -269,8 +280,8 @@ const botler = multiLib.MultiCrafter(GenericCrafter,GenericCrafter.GenericCrafte
 			liquids: ["oil/180"],
 		},
 		craftTime: 60
-	},
-	{
+     },
+     {
 		input: {
 			items: ["z.p.g.m._mod-butelkaz/12"],
 			power: 1.5,
@@ -280,7 +291,18 @@ const botler = multiLib.MultiCrafter(GenericCrafter,GenericCrafter.GenericCrafte
 			liquids: ["slag/180"],
 		},
 		craftTime: 60
-	},
+     },
+     {
+        	input: {
+            		items: ["z.p.g.m._mod-butelkan/12"],
+            		power: 1.5,
+        	},
+       	 	output: {
+            		items: ["z.p.g.m._mod-butelka/12"],
+            		liquids: ["zpgm-connector-nitrociecz/12"],
+        	},
+        	craftTime: 60
+     },
 ],{
     /*you can customize block here. ex) load()*/
 },
@@ -317,4 +339,3 @@ botler.health = 500;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
 botler.dumpToggle = true;
-botler.requirements(Category.liquid,ItemStack.with(Items.copper, 30, Items.lead, 45, Items.zelazo, 75, Items.silicon, 15, Items.metaglass, 75)); //Ciekawe czy zadziała
