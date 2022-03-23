@@ -1,0 +1,5 @@
+name: Butelka ze smarem
+description: Łatwy do przenoszenia pojemnik ze smarem, można rozładować
+research: {
+  parent: butelkam
+}
