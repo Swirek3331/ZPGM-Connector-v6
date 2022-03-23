@@ -1,5 +1,5 @@
 name: butelka z gazem
 description: Łatwy do przenoszenia pojemnik z gazem, można rozładować
 research: {
-  parent: oil
+  parent: z.p.g.m._mod-butelkar
 }
