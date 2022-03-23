@@ -1,0 +1,15 @@
+name: Pakownik
+description: Pakownik
+health: 500
+size: 2
+category: liquid
+requirements: [
+  copper/35
+  lead/45
+  altanic-zelazo/75
+  metaglass/75
+  silicon/15
+]
+research: {
+  parent: converter
+}
