@@ -1,0 +1,5 @@
+name: Butelka z paliwem
+description: Łatwy do przenoszenia pojemnik z paliwem, można rozładować
+research: {
+  parent: butelkanaf
+}
