@@ -1,0 +1,5 @@
+name: Butelka z benzyną
+description: Łatwy do przenoszenia pojemnik z benzyną, można rozładować
+research: {
+  parent: butelkar
+}
