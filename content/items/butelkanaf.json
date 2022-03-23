@@ -1,0 +1,5 @@
+name: Butelka z naftą
+description: Łatwy do przenoszenia pojemnik z naftą, można rozładować
+research: {
+  parent: z.p.g.m._mod-butelkar
+}
