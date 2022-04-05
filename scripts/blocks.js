@@ -238,7 +238,7 @@ const fluidPackingMachine = multiLib.MultiCrafter(GenericCrafter,GenericCrafter.
             power: 1.5,
         },
         output: {
-            items: ["z.p.g.m._mod-butelkaca/12"],
+            items: ["zpgm-connector-butelkaca/12"],
         },
         craftTime: 60
     },
