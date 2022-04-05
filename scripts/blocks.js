@@ -234,7 +234,7 @@ const fluidPackingMachine = multiLib.MultiCrafter(GenericCrafter,GenericCrafter.
     {
         input: {
             items: ["z.p.g.m._mod-butelka/12"],
-            liquids: ["z.p.g.m._mod-azotn/180"],
+            liquids: ["zpgm-connector_mod-azotn/180"],
             power: 1.5,
         },
         output: {
@@ -249,7 +249,7 @@ const fluidPackingMachine = multiLib.MultiCrafter(GenericCrafter,GenericCrafter.
             power: 1.5,
         },
         output: {
-            items: ["z.p.g.m._mod-butelkag/12"],
+            items: ["zpgm-connector-butelkag/12"],
         },
         craftTime: 60
     },
@@ -260,7 +260,7 @@ const fluidPackingMachine = multiLib.MultiCrafter(GenericCrafter,GenericCrafter.
             power: 1.5,
         },
         output: {
-            items: ["z.p.g.m._mod-butelkald/12"],
+            items: ["zpgm-connector-butelkald/12"],
         },
         craftTime: 60
     },
@@ -271,7 +271,7 @@ const fluidPackingMachine = multiLib.MultiCrafter(GenericCrafter,GenericCrafter.
             power: 1.5,
         },
         output: {
-            items: ["z.p.g.m._mod-butelkam/12"],
+            items: ["zpgm-connector-butelkam/12"],
         },
         craftTime: 60
     },
@@ -282,7 +282,7 @@ const fluidPackingMachine = multiLib.MultiCrafter(GenericCrafter,GenericCrafter.
             power: 1.5,
         },
         output: {
-            items: ["z.p.g.m._mod-butelkanaf/12"],
+            items: ["zpgm-connector-butelkanaf/12"],
         },
     },
     {
@@ -292,7 +292,7 @@ const fluidPackingMachine = multiLib.MultiCrafter(GenericCrafter,GenericCrafter.
             power: 1.5,
         },
         output: {
-            items: ["z.p.g.m._mod-butelkapw/12"],
+            items: ["zpgm-connector-butelkapw/12"],
         },
         craftTime: 60
     },
@@ -303,7 +303,7 @@ const fluidPackingMachine = multiLib.MultiCrafter(GenericCrafter,GenericCrafter.
             power: 1.5,
         },
         output: {
-            items: ["z.p.g.m._mod-butelkas/12"],
+            items: ["zpgm-connector-butelkas/12"],
         },
         craftTime: 60
     },
