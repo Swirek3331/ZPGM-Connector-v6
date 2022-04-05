@@ -278,7 +278,7 @@ const fluidPackingMachine = multiLib.MultiCrafter(GenericCrafter,GenericCrafter.
     {
         input: {
             items: ["z.p.g.m._mod-butelka/12"],
-            liquids: ["altanic-naphtha/180"],
+            liquids: ["altanic-naphta/180"],
             power: 1.5,
         },
         output: {
