@@ -164,34 +164,7 @@ converter.dumpToggle = true;
 
 //region crafters
 
-const botler = multiLib.MultiCrafter(GenericCrafter,GenericCrafter.GenericCrafterBuild,"botler",[
-    /*
-    Loading template
-    	{
-        	input: {
-            		items: ["/12"],
-            		liquids: ["/180"],
-            		power: 1.5,
-        	},
-        	output: {
-            		items: ["/12"],
-        	},
-        	craftTime: 60
-    	},
-    Unloading template
-    	{
-        	input: {
-            	items: ["/12"],
-            		power: 1.5,
-        	},
-       	 	output: {
-            		items: ["/12"],
-            		liquids: ["/12"],
-        	},
-        	craftTime: 60
-    	},
-    		*/
-    //Loading
+const fluidPackingMachine = multiLib.MultiCrafter(GenericCrafter,GenericCrafter.GenericCrafterBuild,"fluid-packing-machine",[
     {
 		input: {
 			items: ["z.p.g.m._mod-butelka/12"],
@@ -224,8 +197,8 @@ const botler = multiLib.MultiCrafter(GenericCrafter,GenericCrafter.GenericCrafte
 			items: ["z.p.g.m._mod-butelkar/12"],
 		},
 		craftTime: 60
-     },
-     {
+    },
+    {
 		input: {
 			items: ["z.p.g.m._mod-butelka/12"],
 			liquids: ["slag/180"],
@@ -235,19 +208,106 @@ const botler = multiLib.MultiCrafter(GenericCrafter,GenericCrafter.GenericCrafte
 			items: ["z.p.g.m._mod-butelkaz/12"],
 		},
 		craftTime: 60
-     },
-     {
-        	input: {
-            		items: ["z.p.g.m._mod-butelka/12"],
-            		liquids: ["zpgm-connector-nitrociecz/180"],
-            		power: 1.5,
-        	},
-        	output: {
-            		items: ["z.p.g.m._mod-butelkan/12"],
-        	},
-        	craftTime: 60
     },
-     //Unloading
+    {
+        input: {
+            items: ["z.p.g.m._mod-butelka/12"],
+            liquids: ["zpgm-connector-nitrociecz/180"],
+            power: 1.5,
+        },
+        output: {
+    		items: ["z.p.g.m._mod-butelkan/12"],
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            items: ["z.p.g.m._mod-butelka/12"],
+            liquids: ["altanic-gasoline/180"],
+            power: 1.5,
+        },
+        output: {
+            items: ["zpgm-connector-butelkab/12"],
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            items: ["z.p.g.m._mod-butelka/12"],
+            liquids: ["z.p.g.m._mod-azotn/180"],
+            power: 1.5,
+        },
+        output: {
+            items: ["z.p.g.m._mod-butelkaca/12"],
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            items: ["z.p.g.m._mod-butelka/12"],
+            liquids: ["altanic-gas/180"],
+            power: 1.5,
+        },
+        output: {
+            items: ["z.p.g.m._mod-butelkag/12"],
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            items: ["z.p.g.m._mod-butelka/12"],
+            liquids: ["altanic-coil/180"],
+            power: 1.5,
+        },
+        output: {
+            items: ["z.p.g.m._mod-butelkald/12"],
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            items: ["z.p.g.m._mod-butelka/12"],
+            liquids: ["altanic-heavy-oil/180"],
+            power: 1.5,
+        },
+        output: {
+            items: ["z.p.g.m._mod-butelkam/12"],
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            items: ["z.p.g.m._mod-butelka/12"],
+            liquids: ["altanic-naphtha/180"],
+            power: 1.5,
+        },
+        output: {
+            items: ["z.p.g.m._mod-butelkanaf/12"],
+        },
+    },
+    {
+        input: {
+            items: ["z.p.g.m._mod-butelka/12"],
+            liquids: ["altanic-steam/180"],
+            power: 1.5,
+        },
+        output: {
+            items: ["z.p.g.m._mod-butelkapw/12"],
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            items: ["z.p.g.m._mod-butelka/12"],
+            liquids: ["altanic-lubricant/180"],
+            power: 1.5,
+        },
+        output: {
+            items: ["z.p.g.m._mod-butelkas/12"],
+        },
+        craftTime: 60
+    },
+    //Unloading
     {
 		input: {
 			items: ["z.p.g.m._mod-butelkaw/12"],
@@ -258,8 +318,8 @@ const botler = multiLib.MultiCrafter(GenericCrafter,GenericCrafter.GenericCrafte
 			liquids: ["water/180"],
 		},
 		craftTime: 60
-     },
-     {
+    },
+    {
 		input: {
 			items: ["z.p.g.m._mod-butelkal/12"],
 			power: 1.5,
@@ -269,8 +329,8 @@ const botler = multiLib.MultiCrafter(GenericCrafter,GenericCrafter.GenericCrafte
 			liquids: ["cryofluid/180"],
 		},
 		craftTime: 60
-     },
-     {
+    },
+    {
 		input: {
 			items: ["z.p.g.m._mod-butelkar/12"],
 			power: 1.5,
@@ -280,8 +340,8 @@ const botler = multiLib.MultiCrafter(GenericCrafter,GenericCrafter.GenericCrafte
 			liquids: ["oil/180"],
 		},
 		craftTime: 60
-     },
-     {
+    },
+    {
 		input: {
 			items: ["z.p.g.m._mod-butelkaz/12"],
 			power: 1.5,
@@ -291,18 +351,18 @@ const botler = multiLib.MultiCrafter(GenericCrafter,GenericCrafter.GenericCrafte
 			liquids: ["slag/180"],
 		},
 		craftTime: 60
-     },
-     {
-        	input: {
-            		items: ["z.p.g.m._mod-butelkan/12"],
-            		power: 1.5,
-        	},
-       	 	output: {
-            		items: ["z.p.g.m._mod-butelka/12"],
-            		liquids: ["zpgm-connector-nitrociecz/12"],
-        	},
-        	craftTime: 60
-     },
+    },
+    {
+        input: {
+            items: ["z.p.g.m._mod-butelkan/12"],
+            power: 1.5,
+        },
+       	output: {
+            items: ["z.p.g.m._mod-butelka/12"],
+            liquids: ["zpgm-connector-nitrociecz/12"],
+        },
+        craftTime: 60
+    },
 ],{
     /*you can customize block here. ex) load()*/
 },
@@ -330,12 +390,12 @@ hasLiquids
 hasPower
 */
 //using example without .json file. I don't recommand this way because you can't use mod item as requirements.
-botler.localizedName = "Pakownik";
-botler.description = "Pakuje ciecze do przedmiotów";
-botler.itemCapacity = 10;
-botler.liquidCapacity = 60;
-botler.size = 2;
-botler.health = 500;
+fluidPackingMachine.localizedName = "Pakownik";
+fluidPackingMachine.description = "Pakuje ciecze do odpowiednich przedmiotów";
+fluidPackingMachine.itemCapacity = 10;
+fluidPackingMachine.liquidCapacity = 60;
+fluidPackingMachine.size = 2;
+fluidPackingMachine.health = 500;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
-botler.dumpToggle = true;
+fluidPackingMachine.dumpToggle = true;
